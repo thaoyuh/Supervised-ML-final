@@ -61,7 +61,10 @@ knitr::opts_chunk$set(echo = FALSE,
 # Method
 
 # Results
-
+```{r echo=FALSE}
+par(mfrow = c(1,2))
+plot(Cv_min); plot(Cv_max)
+```
 # Conclusion and Discussion
 
 # Code
